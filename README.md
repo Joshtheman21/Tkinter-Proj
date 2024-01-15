@@ -1,1 +1,1 @@
-# Tkinter-Proj
+This was a project that implemented GUI and using the Tkinter module and its classes. I created a window that allow me to calculate miles into km. My mother is a teacher and her current lesson is dealing with conversions. This was fun example of showing code to the kids and explaining to them as well. # Tkinter-Proj
