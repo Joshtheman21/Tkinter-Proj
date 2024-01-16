@@ -1,6 +1,6 @@
 from tkinter import *
 
-def button_clicked():
+def miles_to_km():
     miles_value = int(input.get())
     km_value = int(miles_value * 1.6)
     num_label.config(text=str(km_value))
@@ -22,7 +22,7 @@ km.grid(column=5, row=5)
 num_label = Label(text="0")
 num_label.grid(column= 3, row=5)
 
-button = Button(text="Calculate", command=button_clicked)
+button = Button(text="Calculate", command=miles_to_km)
 button.grid(column=3, row=7)
 
 input = Entry(width=8)
